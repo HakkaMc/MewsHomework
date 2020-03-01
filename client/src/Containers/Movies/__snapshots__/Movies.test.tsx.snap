@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Movies/> Match snapshot 1`] = `
+<Fragment>
+  <Connect(Pagination) />
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={3}
+    style={
+      Object {
+        "paddingTop": "10px",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={6}
+      xs={12}
+    >
+      <Connect(ResultList) />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={6}
+      xs={12}
+    >
+      <Connect(Detail) />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <Connect(Pagination) />
+</Fragment>
+`;

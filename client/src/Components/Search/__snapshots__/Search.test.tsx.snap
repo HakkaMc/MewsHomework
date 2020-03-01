@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Search/> Match snapshot width light: false 1`] = `
+<form
+  autoComplete="off"
+  noValidate={true}
+>
+  <Input
+    name="movieName"
+    onChange={[Function]}
+  />
+</form>
+`;
+
+exports[`<Search/> Match snapshot width light: true 1`] = `
+<form
+  autoComplete="off"
+  noValidate={true}
+>
+  <Input
+    classes={
+      Object {
+        "input": undefined,
+        "root": undefined,
+      }
+    }
+    inputProps={
+      Object {
+        "aria-label": "search",
+      }
+    }
+    name="movieName"
+    onChange={[Function]}
+    placeholder="Search…"
+  />
+</form>
+`;

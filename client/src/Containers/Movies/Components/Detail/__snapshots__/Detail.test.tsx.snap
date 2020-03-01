@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Detail/> Match snapshot with mock selectedMovie 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    md={6}
+    xs={12}
+  >
+    <img
+      alt="No preview"
+      src="https://image.tmdb.org/t/p/w500"
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    md={6}
+    xs={12}
+  >
+    <WithStyles(ForwardRef(Typography))
+      variant="h6"
+    >
+      title
+    </WithStyles(ForwardRef(Typography))>
+    <WithStyles(ForwardRef(Typography))
+      variant="subtitle1"
+    >
+      en
+      : 
+      title
+    </WithStyles(ForwardRef(Typography))>
+    <WithStyles(ForwardRef(Typography))
+      noWrap={true}
+      variant="subtitle1"
+    >
+      Average vote: 
+      0
+       (
+      0
+       
+      votes)
+    </WithStyles(ForwardRef(Typography))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`<Detail/> Match snapshot with selectedMovie=undefined 1`] = `""`;

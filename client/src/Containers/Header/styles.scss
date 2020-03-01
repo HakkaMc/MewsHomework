@@ -1,0 +1,42 @@
+.gridContainer {
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.toolbar {
+  padding: 0;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  color: white;
+  background-color: rgba(white, 0.15);
+  padding: 5px 10px;
+  border-radius: 3px;
+  transition: background-color 0.2s linear 0s;
+
+  @media all and (max-width: 599px) {
+    margin-top: 10px;
+  }
+
+  &:hover {
+    background-color: rgba(white, 0.25);
+  }
+
+  & > *:first-child {
+    margin-right: 5px;
+  }
+
+  input {
+    color: white;
+  }
+
+  & > *:last-child {
+    margin-left: 5px;
+    cursor: pointer;
+  }
+}

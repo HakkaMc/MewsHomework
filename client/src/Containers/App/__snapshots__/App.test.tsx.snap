@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App/> Render with totalResults: 0 1`] = `
+<div>
+  <injectIntl(Connect(Header)) />
+  <WithStyles(ForwardRef(Container))>
+    <WithStyles(ForwardRef(Paper))
+      elevation={3}
+    >
+      <Suspense
+        fallback={
+          <div>
+            Loading...
+          </div>
+        }
+      >
+        <injectIntl(Home) />
+      </Suspense>
+    </WithStyles(ForwardRef(Paper))>
+  </WithStyles(ForwardRef(Container))>
+</div>
+`;
+
+exports[`<App/> Render with totalResults: 1 1`] = `
+<div>
+  <injectIntl(Connect(Header)) />
+  <WithStyles(ForwardRef(Container))>
+    <WithStyles(ForwardRef(Paper))
+      elevation={3}
+    >
+      <Suspense
+        fallback={
+          <div>
+            Loading...
+          </div>
+        }
+      >
+        <lazy />
+      </Suspense>
+    </WithStyles(ForwardRef(Paper))>
+  </WithStyles(ForwardRef(Container))>
+</div>
+`;

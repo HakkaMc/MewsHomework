@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pagination/> Match snapshot with totalPages=0 1`] = `""`;
+
+exports[`<Pagination/> Match snapshot with totalPages=1 1`] = `
+<div
+  className=""
+>
+  <WithStyles(ForwardRef(Pagination))
+    count={1}
+    onChange={[Function]}
+    page={1}
+  />
+</div>
+`;

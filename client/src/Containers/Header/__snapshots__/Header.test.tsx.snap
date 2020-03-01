@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header/> Match snapshot 1`] = `
+<WithStyles(ForwardRef(AppBar))
+  position="static"
+>
+  <WithStyles(ForwardRef(Container))>
+    <WithStyles(ForwardRef(Toolbar))
+      disableGutters={true}
+      variant="dense"
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+        >
+          <WithStyles(ForwardRef(Typography))
+            variant="h4"
+          >
+            <FormattedMessage
+              defaultMessage="Movie database"
+              id="Header.title"
+              values={Object {}}
+            />
+          </WithStyles(ForwardRef(Typography))>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          md="auto"
+          sm={5}
+          xs={12}
+        >
+          <label
+            className={[Function]}
+          >
+            <SearchIcon />
+            <ReduxForm
+              destroyOnUnmount={false}
+              enableReinitialize={false}
+              forceUnregisterOnUnmount={false}
+              form="search"
+              getFormState={[Function]}
+              keepDirtyOnReinitialize={false}
+              light={true}
+              persistentSubmitErrors={false}
+              pure={true}
+              shouldAsyncValidate={[Function]}
+              shouldError={[Function]}
+              shouldValidate={[Function]}
+              shouldWarn={[Function]}
+              submitAsSideEffect={false}
+              touchOnBlur={true}
+              touchOnChange={false}
+              updateUnregisteredFields={false}
+            />
+            <ClearIcon
+              onClick={[Function]}
+            />
+          </label>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Toolbar))>
+  </WithStyles(ForwardRef(Container))>
+</WithStyles(ForwardRef(AppBar))>
+`;

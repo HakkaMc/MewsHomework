@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResultList/> Match snapshot with valid mock data 1`] = `
+<WithStyles(ForwardRef(List))
+  component="nav"
+  style={
+    Object {
+      "paddingTop": 0,
+    }
+  }
+>
+  <WithStyles(ForwardRef(ListItem))
+    button={true}
+    key="0"
+    onClick={[Function]}
+    selected={false}
+  >
+    <WithStyles(ForwardRef(ListItemText))
+      primary="title"
+    />
+  </WithStyles(ForwardRef(ListItem))>
+</WithStyles(ForwardRef(List))>
+`;

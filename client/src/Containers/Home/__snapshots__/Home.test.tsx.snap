@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home/> Match snapshot 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Typography))
+    variant="h6"
+  >
+    <FormattedMessage
+      defaultMessage="Start searching a movie..."
+      id="Home.title"
+      values={Object {}}
+    />
+  </WithStyles(ForwardRef(Typography))>
+  <ReduxForm
+    destroyOnUnmount={false}
+    enableReinitialize={false}
+    forceUnregisterOnUnmount={false}
+    form="search"
+    getFormState={[Function]}
+    keepDirtyOnReinitialize={false}
+    persistentSubmitErrors={false}
+    pure={true}
+    shouldAsyncValidate={[Function]}
+    shouldError={[Function]}
+    shouldValidate={[Function]}
+    shouldWarn={[Function]}
+    submitAsSideEffect={false}
+    touchOnBlur={true}
+    touchOnChange={false}
+    updateUnregisteredFields={false}
+  />
+</Fragment>
+`;
